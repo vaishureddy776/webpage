@@ -1,0 +1,54 @@
+body {  
+            margin: 0;  
+            padding: 0;  
+            background-color: aqua;
+        }  
+  
+        header {  
+            background-color:gray;  
+            color:white;  
+            padding: 10px;  
+            text-align: center;
+            width :100%; 
+        }  
+  
+        footer {  
+            background-color: gray;  
+            color:white;
+            padding: 10px;  
+            text-align: center;  
+            position: absolute;  
+            bottom: 0;  
+            width: 100%;  
+        }  
+  
+        main {  
+            padding: 20px;  
+        }  
+  
+        nav ul {  
+            list-style: none;  
+            padding: 0;  
+            margin: 0;  
+        }  
+  
+        nav li {  
+            display: inline;  
+            margin-right: 10px;  
+        }  
+  
+        nav a {  
+            text-decoration: none;  
+            color:white;  
+        }  
+        #d1
+        {
+        text-align: center;
+        float: left;
+        margin-left: 450px;
+        margin-top:10px;
+        border-radius: 15px;
+        width:380px;
+        height:210px;
+        
+        }
