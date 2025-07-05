@@ -1,0 +1,27 @@
+p{
+            background-color: aqua;
+            color: rgb(20, 20, 21);
+            font-size: larger;
+        }
+    .onlythis{
+        background-color: rgb(38, 193, 30);
+        color: antiquewhite;
+        font-size: 32px;
+
+    }
+    #pTag{
+        background-color: blue;
+        color: aliceblue;
+    }
+    *{
+        margin:20;
+        padding:0;
+    }
+    .cls{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bolder;
+        color: aliceblue;
+        background-color: blueviolet;
+        font-size: 32px;
+        
+    }

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>css</title>
+    <link rel="stylesheet" href="style.css">
+    
+       
+
+</head>
+<body>
+    <p style="background-color: rgb(252, 49, 49);">inline css has more priority so it does not follow as of style.css which has been linked</p>
+    <p class="onlythis">New p tag5</p>
+    <p class="cls">archana</p>
+    <p>external css</p>
+    <h1>Hello World</h1>
+    <h2>
+        day one
+    </h2>
+    
+    <p class="onlythis" id="pTag">New p tag</p>
+    <p>New p tag 2</p>
+    <h3>
+       h stands for headings
+    </h3>
+    <p style="background-color: bisque;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias doloribus, eos dolores animi enim nemo harum sint voluptatum est itaque.
+    </p>
+    <span style="background-color: aquamarine;"> ipsum dolor sit, amet consectetur adipisicing elit. Dolorum quisquam qui iure quam fuga, enim quia fugit consectetur. Voluptate maiores dignissimos ea facere quaerat! Reprehenderit officiis molestiae dignissimos totam itaque voluptatibus cum corrupti facere. Libero, accusantium. Reprehenderit voluptas nesciunt aspernatur asperiores! Quisquam, magni earum? Earum nobis amet assumenda. Dolor, error iste commodi voluptate alias ex modi atque laudantium debitis nihil hic velit omnis quae! Cupiditate quas similique voluptates maiores praesentium voluptatibus est eveniet sed consequuntur necessitatibus repellendus accusantium temporibus nam, placeat beatae aliquid. Placeat, consequatur, fuga dignissimos voluptatum illum, quae quas repudiandae nemo dolores molestiae fugiat soluta. Eveniet, illum rerum!</span>
+    <input type="number" placeholder="enter mobile number" >
+    <input type="color" >
+    <input type="date">
+    <input type="datetime-local">
+    <input type="email">
+    <input type="file">
+    <input type="password" placeholder="enter password" id="pass">
+    <button onclick="toggle">see password</button>
+    <img src="c:\Users\B ARCHANA\Desktop\New folder\vander-films-aPvB8KMIh5w-unsplash (1).jpg" alt="image does'nt exist in the folder" width="400" height="400">
+    
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/NZbmcl0QUaU?si=F_mhu6TBo1NmR8ue" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <vedio src="c:\Users\B ARCHANA\Desktop\New folder\WhatsApp Video 2025-06-25 at 03.53.51_d38150b7.mp4" height="400px" width="400px" controls autoplay muted>vedio</vedio>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/U-LwZ0Mr1j4?si=46q1aQSOu3UU_FVx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <audio src="c:\Users\B ARCHANA\Desktop\New folder\WhatsApp Audio 2025-06-25 at 04.12.54_148697db.mp3" controls>audio</audio>
+    <a href="https://youtu.be/tTsLt7JMLFw?si=SC1QLiXBgpxYhB7t">youtube</a>
+    <!-- fghjkdfghj56789fghj -->
+     <table border="2">
+         <tr>
+            <th>name</th>
+            <th>maths</th>
+            <th>physics</th>
+            <th>chemistry</th>
+        </tr>
+        <tr>
+            <td>archana</td>
+            <td>60</td>
+            <td>70</td>
+            <td>67</td>
+        </tr>
+        <tr><td>sree</td>
+            <td>67</td>
+            <td>87</td>
+            <td>36</td>
+        
+        </tr>
+
+     </table>
+     <ol>
+        <li>cse</li>
+        <li>it</li>
+        <li>ece</li>
+        <li>mech</li>
+     </ol>
+     <ul>
+        <li>cse</li>
+        <li>it</li>
+        <li>ece</li>
+        <li>mech</li>
+     </ul>
+        <strong>Bold text</strong>
+        <p>line</p>
+        <hr>
+        <p>line2</p>
+        <p>line5</p>
+        <br>
+        <p>line8</p>
+
+</body>
+</html>
+<script>
+    function toggle()
+    {
+        const type=document.getElementId("pass");
+        if(type=="password")
+    {
+        document.getElementById("pass")
+    }
+    }
+</script>
